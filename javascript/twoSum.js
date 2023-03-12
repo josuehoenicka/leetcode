@@ -1,7 +1,6 @@
 // You can see the challenge prompt at the following link below:
 // https://leetcode.com/problems/two-sum/
 
-// My answer
 var twoSum = function(nums, target) {
     for (let i = 0; i < nums.length; i++) {
         const num = nums[i];
@@ -15,5 +14,4 @@ var twoSum = function(nums, target) {
     return [];
 };
 
-// Test
 console.log(twoSum([2,7,11,15], 9)); // [0,1]
